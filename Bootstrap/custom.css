@@ -1,0 +1,132 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+
+
+img { max-width:60%; }
+
+header { background-color: black;
+		color: white;
+		}
+
+.navbar-brand { font-family:"Playfair Display"; }
+
+h1 { font-family: "Playfair Display"; 
+	font-size: 100px;}
+.deck {font-family: Poppins;
+		font-size: 25px;}
+.lead {font-family: Poppins;
+		font-size: 20px;
+		font-weight: lighter;}
+
+#donate-hed {text-align: center;}
+
+#news { background-color:white;}
+
+.news-container {
+	display: grid;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#news-hed { grid-row-start:1;
+			grid-row-end:2;
+			grid-column-start:1;
+			grid-column-end: 2; }
+
+#news-pic { grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 2; }
+
+#news-text{ grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 2;
+			grid-column-end: 3;}
+
+#culture { background-color:lightgray; }
+
+.culture-container {
+	display: grid;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#culture-hed { grid-row-start:1;
+			grid-row-end:2;
+			grid-column-start:1;
+			grid-column-end: 2; }
+
+#culture-pic { grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 2; }
+
+#culture-text{ grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 2;
+			grid-column-end: 3;}
+
+.sports-container {
+	display: grid;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#sports-hed { grid-row-start:1;
+			grid-row-end:2;
+			grid-column-start:1;
+			grid-column-end: 2; }
+
+#sports-pic { grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 2; 
+			max-width: 100%;}
+
+#sports-text{ grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 2;
+			grid-column-end: 3;}
+
+#sports { background-color:white; }
+
+.opinion-container {
+	display: grid;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#opinion-hed { grid-row-start:1;
+			grid-row-end:2;
+			grid-column-start:1;
+			grid-column-end: 2; }
+
+#opinion-pic { grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 2; }
+
+#opinion-text{ grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 2;
+			grid-column-end: 3;}
+
+#opinion { background-color:lightgray;  }
+
+
+.donate-container {
+	display: grid;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#donate { background-color:white; }
+
+#donate-pic { grid-row-start: 1;
+			grid-row-end: 2;
+			grid-column-start: 1;
+			grid-column-end: 2; }
+
+#donate-text{ grid-row-start: 1;
+			grid-row-end: 2;
+			grid-column-start: 2;
+			grid-column-end: 3;}
